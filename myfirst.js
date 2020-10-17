@@ -36,7 +36,6 @@ MongoClient.connect(url, { useUnifiedTopology: true }, function (err, db) {   //
     //When executing the insertMany() method, a result object is returned. The result object contains information about how the insertion affected the database.
     if (err) throw err;
     console.log("Number of documents inserted: " + res.insertedCount);
-    console.log(res);
     db.close();
   });
   // dbo.createCollection("customers", function (err, res) {

@@ -14,10 +14,5 @@ if (err) throw err;
 console.log(res);
 db.close();
 });
-  // dbo.collection("customers").updateOne(myquery, newvalues, function (err, res) {
-  //   if (err) throw err;
-  //   console.log("1 doc updated");
-  //   db.close();
-  // });
 
 });
